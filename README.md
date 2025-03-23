@@ -27,4 +27,4 @@ Else, use:
 conda env create -f gammapy-1.0-environment.yml
 conda activate gammapy-1.3
 ```
-That's it, now you are ready to run the notebooks.
+Now you are ready to open the notebooks using the command `jupyter notebook` inside the terminal. It will open them inside a browser.
