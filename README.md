@@ -13,7 +13,7 @@ For Linux/macOS execute the following command from a terminal in a directory of 
 git clone https://github.com/mpihet/VHE_data_analysis_UB.git
 cd VHE_data_analysis_UB
 ```
-On Windows download the repository as follows: On the main page of the repository, in the top right of the webpage, press CODE (green button) and click the "Download ZIP" option at the bottom of the pop-up options. Move the zip file to the desired location on your PC and decompress it. Open an Anaconda PowerShell terminal and `cd` to the TEFPA_gray_handson directory. 
+On Windows download the repository as follows: On the main page of the repository, in the top right of the webpage, press CODE (green button) and click the "Download ZIP" option at the bottom of the pop-up options. Move the zip file to the desired location on your PC and decompress it. Open an Anaconda PowerShell terminal and `cd` to the VHE_data_analysis_UB directory. 
 
 - Create and activate the gammapy v1.3 environment
 
@@ -24,7 +24,7 @@ conda activate gammapy-1.3
 ```
 Else, use:
 ```
-conda env create -f gammapy-1.0-environment.yml
+conda env create -f gammapy-1.3-environment.yml
 conda activate gammapy-1.3
 ```
 Now you are ready to open the notebooks using the command `jupyter notebook` inside the terminal. It will open them inside a browser.
